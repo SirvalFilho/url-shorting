@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+body,html{
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header nav p{
+    color:  hsl(257, 7%, 63%);
+    font-weight: 500;
+    font-size: 18px;
+}
+header nav p:hover{
+    color: hsl(255, 11%, 22%);
+    cursor: pointer;
+}
+.buttons .btn-log-in, .buttons .btn-sign-up{
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+   cursor: pointer;
+}
+.btn-log-in{
+    color:  hsl(257, 7%, 63%);
+    background-color: white;
+}
+
+.btn-log-in:hover{
+ color: white;
+ background-color: hsl(257, 7%, 63%);
+}
+
+.btn-sign-up{
+    color: white;
+    background-color: hsl(180, 66%, 49%);  
+}
+
+.btn-sign-up:hover{
+   opacity: 0.5;
+}
