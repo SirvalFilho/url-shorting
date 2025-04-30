@@ -40,3 +40,35 @@ header nav p:hover{
 .btn-sign-up:hover{
    opacity: 0.5;
 }
+
+.content-text > h1{
+    color: hsl(255, 11%, 22%);
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 1.1;
+}
+
+.content-text > p{
+    color: hsl(257, 7%, 63%);
+    font-size: 26px;
+    padding-bottom: 12px;
+    line-height: 1.2;
+}
+
+.content-text > button{
+    width: 40%;
+    height: 3rem;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: hsl(180, 66%, 49%);  
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.content-text > button:hover{
+    opacity: 0.5;
+}
+
+
