@@ -16,7 +16,7 @@
 </head>
 
 <body>
-  <div class="container-fluid">
+  <div class="container-fluid m-0 p-0">
     <div class="bg-white w-full h-screen">
       <header class="d-flex flex-row justify-content-between pt-5 px-5">
         <div class="d-flex flex-row gap-5">
@@ -32,7 +32,8 @@
           <button class="btn-sign-up">Sign Up</button>
         </div>
       </header>
-      <div class="d-flex flex-column flex-lg-row justify-content-between align-items-center pt-4 w-100 gap-5">
+      <div
+        class="d-flex flex-column flex-lg-row justify-content-between align-items-center pt-4 w-100 gap-5 main-content">
         <div class="d-flex flex-column justify-content-center ps-3 ps-lg-5 text-center text-lg-start content-text">
           <h1>More than just shorter links</h1>
           <p>Build your brand's recognition and get detailed insights on how your links are performing.</p>
@@ -40,6 +41,14 @@
         </div>
 
         <img src="/images/illustration-working.svg" alt="working" class="img-fluid mx-auto ms-lg-n5 mt-4 mt-lg-0">
+      </div>
+    </div>
+    <div class="more-infos w-full h-screen pt-5">
+      <div class="input-link d-flex flex-column align-items-center justify-content-center">
+        <form>
+          <input type="text" name="input-link" id="input-link" placeholder="Shorten a link here...">
+          <input type="submit" value="Shorten It!">
+        </form>
       </div>
     </div>
   </div>
