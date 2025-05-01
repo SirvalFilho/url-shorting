@@ -129,4 +129,22 @@ header nav p:hover{
     box-shadow: 0px 0px 15px hsl(180, 66%, 49%);
 }
 
+.short-link > button{
+    background-color: hsl(180, 66%, 49%);  
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 5px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.short-link > button:hover{
+    box-shadow: 0px 0px 15px hsl(180, 66%, 49%);
+}
 
+.short-link > p{
+    font-size: 18px;
+    font-weight: 500;
+    color: hsl(180, 66%, 49%);
+}
