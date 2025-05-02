@@ -74,8 +74,7 @@ header nav p:hover{
     padding-bottom: 100px;
 }
 .more-infos{
-    background-color: hsl(0, 0%, 75%);
-    
+    background-color: hsl(0, 0%, 93%); 
 }
 
 .input-link{
@@ -90,7 +89,6 @@ header nav p:hover{
     left: 50%;
     transform: translateX(-50%);
 }
-
 
 .input-link form{
     width: 100%;
@@ -148,3 +146,81 @@ header nav p:hover{
     font-weight: 500;
     color: hsl(180, 66%, 49%);
 }
+
+.advanced-statistics-title > h2{
+    color: hsl(255, 11%, 22%);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.4;
+}
+
+.advanced-statistics-title > p{
+    color: hsl(257, 7%, 63%);
+    font-size: 18px;
+    padding-bottom: 12px;
+    line-height: 1.2;
+}
+.advanced-statistics-wrapper{
+    position: relative;
+}
+
+.advanced-statistics-content{
+    gap: 50px;
+}
+.line-behind {
+    position: absolute;
+    top: 75%;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: hsl(257, 27%, 26%); 
+    z-index: 1;
+  }
+  .advanced-statistics-details-wrapper{
+    padding-top: 40px;
+  }
+.advanced-statistics-details {
+  min-width: 350px;
+  padding: 20px 10px 0 20px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 15px hsl(0, 0%, 75%);
+  z-index: 2;
+  position: relative;
+}
+.advanced-statistics-details:nth-child(2){
+    margin-top: 50px;
+}
+.advanced-statistics-details:nth-child(3){
+    margin-top: 100px;
+}
+.advanced-statistics-details > h2{
+    color: hsl(255, 11%, 22%);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.4;
+    padding-top: 20px;
+}   
+.advanced-statistics-details > p{
+    color: hsl(257, 7%, 63%);
+    font-size: 16px;
+    padding-bottom: 12px;
+    line-height: 1.2;
+}
+.advanced-statistics-details-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: hsl(257, 27%, 26%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -30px;
+    left: 10%;
+  
+}
+
+.advanced-statistics-details-img > img{
+    width: 40px;
+}
+
