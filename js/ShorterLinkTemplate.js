@@ -1,5 +1,11 @@
-export function ShorterLinkTemplate(originalLink, shortLink) {
-    return `
+export default class ShorterLinkTemplate{
+
+  constructor(originalLink, shortLink) {
+    this.newView(originalLink, shortLink);
+}
+
+newView(originalLink, shortLink) {
+  return `
        <div class="d-flex flex-row justify-content-between w-75 bg-white p-3 align-items-center rounded">
           <div class="original-link">
             <p class="mb-0">${originalLink}</p>
@@ -10,4 +16,5 @@ export function ShorterLinkTemplate(originalLink, shortLink) {
           </div>
         </div>
     `;
+}
 }

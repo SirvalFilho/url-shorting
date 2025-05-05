@@ -110,8 +110,19 @@ header nav p:hover{
 }
 .input-link form input[type="text"]:focus{
     outline: 3px solid hsl(180, 66%, 49%);
-    
 }
+
+.is-valid{
+    outline: 2px solid green;
+}
+.is-invalid{
+    outline: 2px solid red;
+}
+
+.input-link form input[type="text"]:focus.is-invalid{
+    outline: 2px solid red;
+}
+
 .input-link form input[type="submit"]{
     width: 15%;
     height: 55px;
